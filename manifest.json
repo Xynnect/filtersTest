@@ -1,0 +1,15 @@
+{
+  "name": "No Alias",
+  "version": "0.1",
+  "permissions": [
+    "https://www.reddit.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.reddit.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}
